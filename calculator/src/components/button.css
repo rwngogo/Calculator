@@ -1,0 +1,26 @@
+.btn {
+    background: #080807;
+    display: flex;
+    border: 1px solid rgba(241, 205, 205, 0.05);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: rgba(248, 244, 244, 0.5);
+    height: 20%;
+    min-width: 25%;
+}
+
+.btn[data-size="2"] {
+    height: 40%;
+}
+
+.btn[data-value="null"] {
+    pointer-events: none;
+}
+
+.btn:hover {
+    background: #1c1d1c;
+    cursor: default;
+}

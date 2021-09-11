@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.calculator {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* padding: 50px; */
+    border: 2px solid rgb(240, 152, 152);
+}
